@@ -1,0 +1,4 @@
+node_modules/
+pathfinder.db-shm
+pathfinder.db-wal
+.env
