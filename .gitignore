@@ -2,3 +2,6 @@ node_modules/
 pathfinder.db-shm
 pathfinder.db-wal
 .env
+
+# Local Netlify folder
+.netlify
