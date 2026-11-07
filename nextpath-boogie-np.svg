@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">NextPath boogie-style NP logo concepts</title>
+  <desc id="desc">Three playful retro disco inspired NP logo concepts in blue and violet.</desc>
+  <defs>
+    <linearGradient id="groove" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#315efb"/><stop offset=".55" stop-color="#6848e8"/><stop offset="1" stop-color="#a344e8"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8c8ff"/><stop offset="1" stop-color="#e9caff"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="9" stdDeviation="8" flood-color="#342b79" flood-opacity=".20"/></filter>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="#f4f2fc"/>
+  <text x="640" y="58" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="30" font-weight="700">NextPath · boogie NP</text>
+  <text x="640" y="90" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="16">A little groove for your next move</text>
+  <g filter="url(#shadow)">
+    <rect x="36" y="124" width="386" height="550" rx="22" fill="#fff"/>
+    <rect x="447" y="124" width="386" height="550" rx="22" fill="#fff"/>
+    <rect x="858" y="124" width="386" height="550" rx="22" fill="#fff"/>
+  </g>
+
+  <!-- 01: Wavy connected NP -->
+  <g transform="translate(148 205)">
+    <rect width="160" height="160" rx="42" fill="url(#groove)"/>
+    <path d="M35 119V43c0-9 12-12 17-4l55 78c5 8 17 5 17-4V40" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M124 40h12c18 0 29 11 29 27s-11 27-29 27h-12" fill="none" stroke="#fff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33 121c20-9 38-9 57 0" fill="none" stroke="url(#shine)" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="229" y="415" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="26" font-weight="700">NextPath</text>
+  <text x="229" y="463" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">01 · THE GROOVY N</text>
+  <text x="229" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">A wavy N flows right</text>
+  <text x="229" y="528" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">into a rounded P.</text>
+
+  <!-- 02: Disco medallion -->
+  <g transform="translate(560 205)">
+    <circle cx="80" cy="80" r="77" fill="#f0eaff" stroke="url(#groove)" stroke-width="7"/>
+    <circle cx="80" cy="80" r="63" fill="#fff" stroke="#d8cdf9" stroke-width="2"/>
+    <path d="M38 119V42c0-7 9-10 14-4l52 76c5 7 15 4 15-4V42" fill="none" stroke="url(#groove)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M119 42h9c17 0 27 10 27 25s-10 25-27 25h-9" fill="none" stroke="url(#groove)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M21 20l6 10 11 2-8 8 2 11-11-5-10 5 2-11-8-8 11-2z" fill="#8f65eb" transform="translate(2 -2) scale(.68)"/>
+    <circle cx="145" cy="119" r="6" fill="#9c70ed"/><circle cx="25" cy="120" r="4" fill="#4267f5"/>
+  </g>
+  <text x="640" y="415" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="26" font-weight="700">NextPath</text>
+  <text x="640" y="463" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">02 · DISCO BADGE</text>
+  <text x="640" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">A lively NP inside a</text>
+  <text x="640" y="528" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">sparkling roundel.</text>
+
+  <!-- 03: Wavy wordmark and starburst -->
+  <g transform="translate(936 215)">
+    <path d="M13 107c12-9 23-9 35 0s23 9 35 0 23-9 35 0 23 9 35 0" fill="none" stroke="url(#groove)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M35 89V34h12l38 55V34h14v55h-12L49 34v55z" fill="url(#groove)"/>
+    <path d="M101 89V34h21c19 0 30 10 30 27s-11 28-30 28h-7V77h7c10 0 15-6 15-16s-5-15-15-15h-7v43z" fill="url(#groove)"/>
+    <path d="M165 19l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#9c70ed"/>
+    <circle cx="17" cy="31" r="5" fill="#5970f6"/><circle cx="164" cy="83" r="4" fill="#bd88f1"/>
+  </g>
+  <text x="1051" y="415" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="26" font-weight="700">NextPath</text>
+  <text x="1051" y="463" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.6">03 · FUNKY WORDMARK</text>
+  <text x="1051" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">Playful lettering with</text>
+  <text x="1051" y="528" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">a little disco sparkle.</text>
+</svg>

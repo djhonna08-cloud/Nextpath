@@ -1,0 +1,99 @@
+{
+  "planHash": "ca52f24b70e61c1f5f8495ea9177af54830c188a4eb77d4854795520a7dcc8c7",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-10-30T01:33:31.0630078Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 0,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "project-check",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E nextpath@1.1.0 check\r\n\u003E node --check app.js \u0026\u0026 node --check server.js \u0026\u0026 node --check course-match-questions.js \u0026\u0026 node --check course-match-scoring.js \u0026\u0026 node --check course-data.js \u0026\u0026 node --check course-taxonomy.js \u0026\u0026 node --check admin-bootstrap.js \u0026\u0026 node --check mysql-database.js \u0026\u0026 node --check test-support/sqlite-test-database.js\r\n\r\n",
+        "durationMs": 1772
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E nextpath@1.1.0 test\r\n\u003E node --test\r\n\r\n\u2714 super admin dashboard is private and provides system statistics and searchable users (1178.1499ms)\r\n\u2714 role-scoped administration manages accounts, password setup, courses, and settings (1471.8043ms)\r\n\u2714 registration, sessions, logout, and login (1486.4557ms)\r\nRegistration verification email delivery failed: EAUTH\r\n\u2714 failed SMTP delivery never creates an account or pending registration (200.5216ms)\r\n\u2714 registration reports missing SMTP configuration without creating a pending record (70.2346ms)\r\n\u2714 fallback catalog includes every user-suggested model (1.88ms)\r\nNVIDIA model retired-model was unavailable (410); trying the next configured model.\r\nNVIDIA assistant answered using fallback model working-fallback.\r\n\u2714 chat falls back after a retired model and uses the next working candidate (868.3573ms)\r\nNVIDIA model retired-model was unavailable (410); trying the next configured model.\r\nNVIDIA model unavailable-fallback was unavailable (410); trying the next configured model.\r\n\u2714 chat reports when all configured models are unavailable (570.9389ms)\r\n\u2714 chat is authenticated, bounded, system-scoped, and rate limited (990.2218ms)\r\n\u2714 chat blocks cross-origin requests before contacting NVIDIA (17.7785ms)\r\n\u2714 course catalog covers the eight main and fifteen detailed categories (8.1411ms)\r\n\u2714 Course Match ranks direct course evidence above broad category evidence (21.5605ms)\r\n\u2714 Course Match normalizes question groups before applying the four factor weights (542.823ms)\r\n\u2714 Course Match ranks ten answers deterministically and grounds explanations and chat in saved results (383.4641ms)\r\n\u2714 Course Match uses evidence-based explanations if the AI explanation payload is invalid (98.7477ms)\r\nNVIDIA model test-course-match-model returned an invalid Course Match response; trying the next configured model.\r\n\u2714 Course Match rejects secrets and does not persist a failed chatbot response (139.1128ms)\r\n\u2714 profile customization, saved Course Match sessions, timestamps, and personal analytics (1009.3351ms)\r\n\u2139 tests 17\r\n\u2139 suites 0\r\n\u2139 pass 17\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 4538.8449\r\n",
+        "durationMs": 5511,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "server-health-200",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n{\u0022ok\u0022:true,\u0022database\u0022:\u0022MySQL\u0022}\n--- server output ---\n\r\n\u003E nextpath@1.1.0 start\r\n\u003E node server.js\r\n\r\nNextPath running at http://127.0.0.1:3011\r\n",
+        "durationMs": 1817
+      }
+    ],
+    "executions": [
+      {
+        "source": "project-check",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "check"
+        ],
+        "cwd": "C:\\Users\\aramm\\Desktop\\try-langs-main",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\aramm\\Desktop\\try-langs-main",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "server-health-200",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "start"
+        ],
+        "cwd": "C:\\Users\\aramm\\Desktop\\try-langs-main",
+        "env": {
+          "HOST": "127.0.0.1",
+          "PORT": "3011"
+        },
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

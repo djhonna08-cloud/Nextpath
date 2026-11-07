@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">NextPath logo sample</title>
+  <desc id="desc">A rounded indigo-violet tile with a white N-shaped path that ends in an upward arrow, beside the NextPath wordmark.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#315efb"/>
+      <stop offset="1" stop-color="#7543ed"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="220" rx="24" fill="#f5f7fc"/>
+  <g transform="translate(54 46)">
+    <rect width="128" height="128" rx="29" fill="url(#brand)"/>
+    <path d="M35 92V36l58 56V36l17-17" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M93 19h17v17" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="216" y="132" fill="#102044" font-family="DM Sans, Inter, Arial, sans-serif" font-size="60" font-weight="700" letter-spacing="-2">NextPath</text>
+</svg>

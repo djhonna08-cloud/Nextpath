@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">NextPath NP monogram concepts</title>
+  <desc id="desc">Four indigo-violet monogram directions combining the letters N and P.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#315efb"/><stop offset="1" stop-color="#8a42e8"/></linearGradient>
+    <linearGradient id="soft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef3ff"/><stop offset="1" stop-color="#f5efff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#172b55" flood-opacity=".08"/></filter>
+  </defs>
+  <rect width="1280" height="720" rx="28" fill="#f4f6fc"/>
+  <text x="640" y="58" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="30" font-weight="700">NextPath · NP monogram ideas</text>
+  <text x="640" y="90" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="16">Four ways to bring N and P together</text>
+  <g filter="url(#shadow)">
+    <rect x="36" y="124" width="286" height="550" rx="20" fill="#fff"/>
+    <rect x="346" y="124" width="286" height="550" rx="20" fill="#fff"/>
+    <rect x="656" y="124" width="286" height="550" rx="20" fill="#fff"/>
+    <rect x="966" y="124" width="278" height="550" rx="20" fill="#fff"/>
+  </g>
+
+  <!-- 01: Shared stem, N flows into P -->
+  <g transform="translate(111 205)">
+    <rect width="136" height="136" rx="32" fill="url(#brand)"/>
+    <path d="M31 103V33l49 70V33" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80 103V33h24c18 0 28 10 28 25s-10 25-28 25H80" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="179" y="397" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="24" font-weight="700">NextPath</text>
+  <text x="179" y="444" text-anchor="middle" fill="#315efb" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">01 · SHARED STEM</text>
+  <text x="179" y="482" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">N and P share one</text>
+  <text x="179" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">clean vertical stroke.</text>
+
+  <!-- 02: P bowl cut from an N -->
+  <g transform="translate(421 205)">
+    <rect width="136" height="136" rx="32" fill="url(#soft)"/>
+    <path d="M34 104V32l68 72V32h7c17 0 26 9 26 24s-9 24-26 24h-7" fill="none" stroke="url(#brand)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="489" y="397" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="24" font-weight="700">NextPath</text>
+  <text x="489" y="444" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">02 · CONTINUOUS LINE</text>
+  <text x="489" y="482" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">One route draws</text>
+  <text x="489" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">both letters.</text>
+
+  <!-- 03: Negative space P inside a bold N -->
+  <g transform="translate(731 205)">
+    <rect width="136" height="136" rx="32" fill="url(#brand)"/>
+    <path d="M30 106V30l48 76V30" fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M78 30h23c18 0 28 9 28 23s-10 23-28 23H78" fill="none" stroke="#dcd5ff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M78 76v30" fill="none" stroke="#dcd5ff" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <text x="799" y="397" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="24" font-weight="700">NextPath</text>
+  <text x="799" y="444" text-anchor="middle" fill="#8b42d8" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">03 · LAYERED MONOGRAM</text>
+  <text x="799" y="482" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">A bold N with P</text>
+  <text x="799" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">nested in its shape.</text>
+
+  <!-- 04: Geometric NP with forward arrow -->
+  <g transform="translate(1037 205)">
+    <rect width="136" height="136" rx="32" fill="#f3efff"/>
+    <path d="M26 105V31l48 74V31h14" fill="none" stroke="#315efb" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M88 105V31h20c17 0 26 9 26 23s-9 23-26 23H88" fill="none" stroke="#7543ed" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M107 96h20m-8-8 8 8-8 8" fill="none" stroke="#7543ed" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="1105" y="397" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="24" font-weight="700">NextPath</text>
+  <text x="1105" y="444" text-anchor="middle" fill="#8b42d8" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">04 · FORWARD NP</text>
+  <text x="1105" y="482" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">A small arrow adds</text>
+  <text x="1105" y="505" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">a sense of progress.</text>
+</svg>

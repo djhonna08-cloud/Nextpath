@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="760" viewBox="0 0 1320 760" role="img" aria-labelledby="title desc">
+  <title id="title">NextPath boogie NP logo, expanded concepts</title>
+  <desc id="desc">Three more expressive boogie-inspired NP logo ideas with dancing curves, disco orbit, and a bright forward spark, in indigo and violet.</desc>
+  <defs>
+    <linearGradient id="groove" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#315efb"/><stop offset=".54" stop-color="#6848e8"/><stop offset="1" stop-color="#a344e8"/></linearGradient>
+    <linearGradient id="pinkglow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8670f2"/><stop offset="1" stop-color="#c36be8"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#31266f" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1320" height="760" rx="30" fill="#f3f2fc"/>
+  <text x="660" y="57" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="31" font-weight="700">NextPath · boogie edition</text>
+  <text x="660" y="91" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="16">More groove, more motion, still unmistakably NP</text>
+  <g filter="url(#shadow)">
+    <rect x="34" y="126" width="400" height="590" rx="24" fill="#fff"/>
+    <rect x="460" y="126" width="400" height="590" rx="24" fill="#fff"/>
+    <rect x="886" y="126" width="400" height="590" rx="24" fill="#fff"/>
+  </g>
+
+  <!-- A: Groovy ribbon with motion loops -->
+  <g transform="translate(142 195)">
+    <rect width="184" height="184" rx="48" fill="url(#groove)"/>
+    <path d="M35 132V52c0-12 15-16 22-6l66 92c7 10 22 6 22-6V51" fill="none" stroke="#fff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M145 51h9c20 0 32 12 32 30s-12 30-32 30h-11" fill="none" stroke="#fff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M17 151c20-15 39-15 58 0s38 15 57 0 38-15 55 0" fill="none" stroke="#c9c4ff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="34" cy="28" r="5" fill="#fff"/><circle cx="158" cy="28" r="4" fill="#ddd5ff"/>
+    <path d="M91 17l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#fff" opacity=".95"/>
+  </g>
+  <text x="234" y="435" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="27" font-weight="700">NextPath</text>
+  <text x="234" y="483" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">A · DANCING RIBBON</text>
+  <text x="234" y="526" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">The N turns into a fluid P,</text>
+  <text x="234" y="549" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">with a groove underneath.</text>
+
+  <!-- B: Disco orbit and stacked NP -->
+  <g transform="translate(568 195)">
+    <circle cx="92" cy="92" r="81" fill="#f4f0ff" stroke="url(#groove)" stroke-width="5" stroke-dasharray="3 9"/>
+    <ellipse cx="92" cy="92" rx="88" ry="38" transform="rotate(-27 92 92)" fill="none" stroke="#b7a4fa" stroke-width="3"/>
+    <circle cx="17" cy="57" r="8" fill="#315efb"/><circle cx="159" cy="128" r="7" fill="#a344e8"/>
+    <path d="M40 125V55l49 70V55" fill="none" stroke="#315efb" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M89 125V55h15c18 0 28 10 28 24s-10 24-28 24H89" fill="none" stroke="#8a42e8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M152 30l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#9c70ed"/>
+  </g>
+  <text x="660" y="435" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="27" font-weight="700">NextPath</text>
+  <text x="660" y="483" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">B · DISCO ORBIT</text>
+  <text x="660" y="526" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">An NP monogram wrapped</text>
+  <text x="660" y="549" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">in a playful orbit.</text>
+
+  <!-- C: Bold layered monogram with a spark arrow -->
+  <g transform="translate(1000 195)">
+    <rect width="184" height="184" rx="48" fill="#f0edff"/>
+    <path d="M29 140V43h21l55 76V43h21v97h-20L50 64v76z" fill="url(#groove)"/>
+    <path d="M112 140V43h27c29 0 45 16 45 40s-16 40-45 40h-7v-20h7c15 0 23-8 23-20s-8-20-23-20h-7v77z" fill="url(#pinkglow)"/>
+    <path d="M154 33l6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#fff" stroke="#8d68e9" stroke-width="3"/>
+    <path d="M144 152h27m-10-10 10 10-10 10" fill="none" stroke="#7543ed" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="31" cy="25" r="5" fill="#6f70f1"/><circle cx="151" cy="127" r="4" fill="#a344e8"/>
+  </g>
+  <text x="1092" y="435" text-anchor="middle" fill="#14264c" font-family="Arial,sans-serif" font-size="27" font-weight="700">NextPath</text>
+  <text x="1092" y="483" text-anchor="middle" fill="#6848d9" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">C · BOLD &amp; BRIGHT</text>
+  <text x="1092" y="526" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">Chunky layered letters,</text>
+  <text x="1092" y="549" text-anchor="middle" fill="#647594" font-family="Arial,sans-serif" font-size="14">spark, and forward arrow.</text>
+</svg>
