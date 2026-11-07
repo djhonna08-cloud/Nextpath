@@ -5,3 +5,5 @@ pathfinder.db-wal
 
 # Local Netlify folder
 .netlify
+.netlify-home/
+public/

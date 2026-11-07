@@ -3,6 +3,7 @@ const path = require("node:path");
 require("dotenv").config({ path: path.join(__dirname, ".env"), quiet: true });
 
 const { createMySqlDatabase } = require("./mysql-database");
+const { createPostgresDatabase } = require("./postgres-database");
 
 const email = typeof process.env.SUPER_ADMIN_EMAIL === "string"
   ? process.env.SUPER_ADMIN_EMAIL.trim().toLowerCase()
@@ -15,7 +16,9 @@ if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || typeof password !== "string" ||
 }
 
 async function bootstrapAdmin() {
-  const db = createMySqlDatabase();
+  const db = process.env.NETLIFY_DB_URL || process.env.DATABASE_URL
+    ? createPostgresDatabase()
+    : createMySqlDatabase();
   try {
     await db.ready;
     const existing = await db.get("SELECT id FROM users WHERE email = ?", email);

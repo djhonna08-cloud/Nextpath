@@ -5,15 +5,19 @@
   "type": "commonjs",
   "scripts": {
     "start": "node server.js",
+    "build": "node build-netlify.js",
     "create-admin": "node admin-bootstrap.js",
-    "check": "node --check app.js && node --check server.js && node --check course-match-questions.js && node --check course-match-scoring.js && node --check course-data.js && node --check course-taxonomy.js && node --check admin-bootstrap.js && node --check mysql-database.js && node --check test-support/sqlite-test-database.js",
+    "check": "node --check app.js && node --check server.js && node --check course-match-questions.js && node --check course-match-scoring.js && node --check course-data.js && node --check course-taxonomy.js && node --check admin-bootstrap.js && node --check mysql-database.js && node --check postgres-database.js && node --check build-netlify.js && node --check netlify/functions/api.js && node --check test-support/sqlite-test-database.js",
     "test": "node --test"
   },
   "dependencies": {
+    "@netlify/database": "^2.0.3",
     "dotenv": "^18.0.8",
     "express": "^5.1.0",
     "mysql2": "^3.24.6",
-    "nodemailer": "^10.1.2"
+    "nodemailer": "^10.1.2",
+    "pg": "^8.23.1",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
     "better-sqlite3": "^13.0.3"
