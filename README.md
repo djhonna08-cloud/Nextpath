@@ -4,6 +4,13 @@ NextPath is a local student course-discovery and guidance platform built for exp
 
 This project combines a MySQL-backed web application, role-based admin controls, deterministic program recommendation logic, and optional AI-powered explanations for course results and system support.
 
+## Preview
+
+<p align="center">
+	<img src="images/previews/nextpath-home.png" width="48%" alt="NextPath home page">
+	<img src="images/previews/nextpath-signup.png" width="48%" alt="NextPath sign-up page">
+</p>
+
 ## Overview
 
 NextPath helps users:
